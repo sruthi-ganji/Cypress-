@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-12T04:29:55.952Z",
+    "end": "2022-10-12T04:30:05.460Z",
+    "duration": 9508,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b7423996-1fcf-4dc8-9a80-a002df629bb1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\MultipleWindows.cy.js",
+      "file": "cypress\\e2e\\MultipleWindows.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4ae56cf7-de32-4502-941a-dbb8ba7db049",
+          "title": "Multiple windows",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should open the window ",
+              "fullTitle": "Multiple windows should open the window ",
+              "timedOut": null,
+              "duration": 6414,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.selectMultipleWindows();\ncommonMethods.pageTitle();\nwindowPage.pageHeading();\nwindowPage.selectNewWindows();\nwindowPage.verifyTitle();",
+              "err": {},
+              "uuid": "587e543c-cb0d-45d5-8048-27efa48f6089",
+              "parentUUID": "4ae56cf7-de32-4502-941a-dbb8ba7db049",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "587e543c-cb0d-45d5-8048-27efa48f6089"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6414,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

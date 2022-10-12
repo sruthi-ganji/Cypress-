@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-12T04:27:57.583Z",
+    "end": "2022-10-12T04:28:10.742Z",
+    "duration": 13159,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0a3b2469-99c3-4726-941c-81d34eb7ed8f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\DragAndDrop.cy.js",
+      "file": "cypress\\e2e\\DragAndDrop.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a716137a-bbbe-49b2-a9f3-a5df5bcf153d",
+          "title": "Drag and Drop",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should drag  column a to the column b",
+              "fullTitle": "Drag and Drop should drag  column a to the column b",
+              "timedOut": null,
+              "duration": 8374,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.selectDragAndDrop();\ncommonMethods.pageTitle();\ndragdrop.pageHeading();\ndragdrop.beforeDrag();\ndragdrop.selectDrag();\ndragdrop.selectDrop();\ndragdrop.afterDrop();",
+              "err": {},
+              "uuid": "fb2974f8-a35f-42d3-b10d-5e07d4c40afc",
+              "parentUUID": "a716137a-bbbe-49b2-a9f3-a5df5bcf153d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fb2974f8-a35f-42d3-b10d-5e07d4c40afc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8374,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

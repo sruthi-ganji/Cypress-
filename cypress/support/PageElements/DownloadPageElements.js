@@ -1,0 +1,1 @@
+export const Download = "a[href='download/some-file.txt']"
